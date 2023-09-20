@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Vaida",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
