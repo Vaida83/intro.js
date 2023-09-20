@@ -11,7 +11,7 @@ iniciavimo budas:
 -var (niekada)
 */
 
-const amzius = 99;
+const amzius = 19;
 let pinigine = 0;
 var minusas = -7.56;
 
