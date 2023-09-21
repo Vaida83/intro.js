@@ -35,3 +35,23 @@ const multi = n1 * n2;
 console.log(multi);
 
 const exp1 = 0;
+const exp2 = 1;
+
+const begalybe = Infinity;
+const minusBegalybe = -Infinity;
+const x = 5 / 0
+console.log (x);
+
+const k = -5 / 0;
+console.log(k);
+
+// not-a-number = NaN
+
+const n = NaN;
+console.log(n, NaN);
+
+const liekana = 7 % 5;
+console.log(liekana);
+
+const liekana2 = 65 % 5;
+console.log(liekana2);
