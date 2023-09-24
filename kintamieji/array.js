@@ -26,8 +26,18 @@ console.log (treciasPazymys);
 const paskutinisPazymys = pazymiai[pazymiai.lenght - 1];
 console.log (paskutinisPazymys);
 
+console.clear();
+
+//Masyvas pazymiu
 //suskaiciuoti pazymiu vidurki ir isvesti kaip sakini:
 //"Studento pazymiu vidurkis yra 7."
+
+const visipazymiai = [10, 6, 8, 6, 3, 9, 7, 4, 10, 9, 7];
+const count = visipazymiai.lenght;
+const sum = ;
+
+const vidurkis = sum / count;
+console.log ('Studento pazymiu vidurkis yra', vidurkis);
 
 //Masyvas vietovardziu.
 //Suformuojat sakini:
