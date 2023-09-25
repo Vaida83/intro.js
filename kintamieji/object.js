@@ -37,6 +37,6 @@ const jonas = {
 };
 
 console.log(jonas);
-console.log(jonas['name']);
-console.log(jonas['age']);
-console.log(jonas['isMarried']);
+console.log(jonas['name'], jonas.name);
+console.log(jonas['age'], jonas.age);
+console.log(jonas['isMarried'], jonas.isMarried);
