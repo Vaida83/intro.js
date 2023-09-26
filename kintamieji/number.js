@@ -59,7 +59,8 @@ console.log(liekana2);
 console.clear();
 let wallet = 0;
 
-
+//matematiniai operatoriai
+//+, -, 
 
 wallet = wallet + 5;
 wallet += 5;
@@ -140,3 +141,4 @@ console.log(--m2);
 console.log(--m2);
 console.log(--m2);
 console.log(--m2);
+
