@@ -18,7 +18,6 @@ if (4 > 2) {
 
 if (5 < 0) {
     console.log(`5 yra maziau uz 0`);
-
 }
  
 if (true) {
