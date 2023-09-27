@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "function":"nodemon ./kintamieji/function.js",
-  "object":"nodemon ./kintamieji/object.js",
+"if":"nodemon ./palyginimas/if.js",
+"function":"nodemon ./kintamieji/function.js",
+"object":"nodemon ./kintamieji/object.js",
 "array":"nodemon ./kintamieji/array.js",
 "boolean":"nodemon ./kintamieji/boolean.js",
 "number":"nodemon ./kintamieji/number.js",
