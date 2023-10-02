@@ -1,0 +1,131 @@
+console.clear();
+
+console.log('labas' .length);
+console.log('     ' .length);
+console.log('\n\'\\' .length);
+
+//nuorodas nusikopijuoti
+
+//String.prototype.KAZKAS
+//.at grazina kazkuri simboli. - leidzia grazinti atbuline tvarka
+
+
+console.log('labas'[0], 'labas'.at(0));
+console.log('labas'[1], 'labas'.at(1));
+console.log('labas'[2], 'labas'.at(2));
+console.log('labas'[3], 'labas'.at(3));
+console.log('labas'[4], 'labas'.at(4));
+
+console.log('labas'[-0], 'labas'.at(-0));
+console.log('labas'[-1], 'labas'.at(-1));
+console.log('labas'[-2], 'labas'.at(-2));
+console.log('labas'[-3], 'labas'.at(-3));
+console.log('labas'[-4], 'labas'.at(-4));
+console.log('labas'[-5], 'labas'.at(-5));
+
+const hi = 'labas';
+console.log(hi.at(-2), hi[hi.length - 2]);
+
+console.clear();
+
+//
+console.log('a'.charCodeAt(0));
+console.log('b'.charCodeAt(0));
+
+console.log('labas'.charCodeAt(0));
+console.log('labas'.charCodeAt(1));
+console.log('labas'.charCodeAt(2));
+console.log('labas'.charCodeAt(3));
+console.log('labas'.charCodeAt(4));
+
+//const str1 = 'Hello';
+//const str2 = 'World';
+
+//console.log(str1.concat(' ', str2))
+
+//str3 += ' ';
+//str3 += str4;
+
+//let str5 = 'Hello';
+//str5 += ' ' +str4;
+//console.log(str5);
+
+console.clear();
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+const start = Abecele;
+
+let asd123
+
+let a2 = start + abc[0] + abc[1] + abc[2] + abc[4] + abc[5];
+
+let a3 = start;
+for (let i=0; i<abc.length; i++) {
+    a3 += abc[i];
+}
+console.log(a3);
+
+let a4 = start.concat(...abc);
+console.jog(a4);
+
+const a5 =  start.concat(abc[0] + abc[1] + abc[2] + abc[4] + abc[5]);
+//includes - pasako ar yra, ar nera
+console.log('Labas rytas' .includes('a'));
+console.log('Labas rytas' .includes('A'));
+console.log('Labas rytas' .includes(' '));
+console.log('Labas rytas' .includes('ab'));
+
+//infexof - grazina simboli kurioje vietoje yra. Jei nera, grazina -1
+//          012345
+console.log('Labas rytas' .indexOf('a'));
+console.log('Labas rytas' .indexOf('A'));
+console.log('Labas rytas' .indexOf(' '));
+console.log('Labas rytas' .indexOf('ab'));
+console.log('Labas, labas, rytas' .indexOf('labas'));
+
+console.log('--------------');
+//skaicius - nuo kurios pozicijos pradeda ieskoti
+console.log('Labas rytas' .indexOf('a'));
+console.log('Labas rytas' .indexOf('a', 0));
+console.log('Labas rytas' .indexOf('a', 6));
+console.log('Labas rytas' .indexOf('ab', 3));
+console.log('Labas rytas' .indexOf('a', 10));
+
+//naudoti tik: for () {} ir if () {}
+function kiek(tekstas, raide) {
+    return 0;
+}
+console.log(kiek('labas', 'a'));
+
+//console.clear();
+
+//repeat - kartoja parasyta teksta tiek kartu, kiek parasyta
+console.log('a' .repeat(6));
+console.log('labas' .repeat(6));
+
+const r1 = 'Labas';
+const r2 = r1.replace('a', 'x');
+console.log(r1, r2);
+
+const r3 = 'Labas rytas';
+const r4 = r3.replace('rytas', 'vakaras');
+console.log(r3, r4);
+
+const r5 = r3.replace('xxx', 'yyy');
+console.log(r3, r5);
+
+const r6 = 'Labas';
+const r7 = r6.All('a', ' ');
+console.log(r6, r7);
+
+let r8 = 'Labas';
+r8 = r8.replace('a', 'o');
+ console.log(r8);
+
+ r8 = r8.replace('a', 'o');
+ console.log(r8);
+
+ r8 = r8.replace('a', 'o');
+ console.log(r8);
+
