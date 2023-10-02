@@ -91,3 +91,20 @@ console.log(studentAverage('Jonas', [10, 2, 8, 4, 6]));
 console.log(studentAverage('Maryte', [10, 9, 8, 7, 6]));
 console.log(studentAverage('Petras', [5, 6, 7, 8, 9]));
 console.log(studentAverage('Ona', [9, 9, 9, 9, 9]));
+
+
+function sayHello(name, city, state) {
+   return `Hello, ${name}! Welcome to ${city}, ${state}!`
+}
+console.log(sayHello(['John Smith'], 'Phoenix', 'Arizona'));
+console.log(sayHello(['Franklin Delano Roosevelt'], 'Chicago', 'Illinois'));
+console.log(sayHello(['Wallace Russel Osbourne'], 'Albany', 'New York'));
+
+
+
+
+const n1 = 7;
+const n2 = 5;
+const suma = n1 + n2;
+
+
