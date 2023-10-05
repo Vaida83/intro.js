@@ -69,6 +69,56 @@ console.log(abcJoin, typeof abcJoin);
 console.log(abcJoin2);
 console.log(abcJoin3);
 
+console.clear();
+
+// .puch nauji irasai idedami i saraso gala
+
+const flowers = ['kardelis'];
+console.log(flowers);
+
+flowers.push('roze');
+console.log(flowers);
+flowers.push('tulpe');
+flowers.push('narcizas');
+console.log(flowers);
+
+//.pop - istrina paskutinis elementa
+
+flowers.pop();
+console.log(flowers);
+
+//.shift - istrina pirma elementa
+
+flowers.shift();
+console.log(flowers);
+
+// .unshift - prideda i masyvo pradzia
+
+flowers.unshift('ruta');
+console.log(flowers);
+
+//.reverse - atvirkstine tvarka isvardija
+
+console.log(flowers);
+console.log(flowers.reverse());
+
+console.clear();
+//startas imtinai, o pabaiga neimtinai
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers46 = numbers.slice(4, 6);
+console.log(numbers46);
+
+//.splice - nuo kelinto ir kiek istrinti elementu. 
+//Treciu skaiciumi irasytas skaicius idedamas vietoj istrintojo/uju
+
+console.log(numbers);
+numbers.splice(3, 5, 15);
+console.log(numbers);
+
+
+console.clear();
+
+
 
 
 
