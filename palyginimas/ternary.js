@@ -42,4 +42,20 @@ let zinute1 = '';
  const q4 = 0 > 1 ? 2 ? 3 : 4 : 5 ? 6 : 7;
  console.log(q4);
 
- //visis skaiciai atsako true, iskyrus 0. tik 0 yra "negalyvus" skaicius
+ //visi skaiciai atsako true, iskyrus 0. tik 0 yra "negatyvus" skaicius
+const errors = {
+    notString : 'Error: first param has to be a string type'
+    empty : 'Error: first param has no to be non-empty spring value'
+};
+ const firstLetters = str => typeof str !== 'string' 
+? 'Error: first param has no to be a spring type'
+:str.length === 0
+     ?'Error: first param has no to be non-empty spring value'
+     : str[0];
+     : errors.empty;
+    console.log(firstLetters(6));
+    console.log(firstLetters('man'));
+    console.log(firstLetters());
+
+
+

@@ -99,12 +99,14 @@ function sayHello(name, city, state) {
 console.log(sayHello(['John Smith'], 'Phoenix', 'Arizona'));
 console.log(sayHello(['Franklin Delano Roosevelt'], 'Chicago', 'Illinois'));
 console.log(sayHello(['Wallace Russel Osbourne'], 'Albany', 'New York'));
+console.clear();
 
 
-
-
-const n1 = 7;
-const n2 = 5;
-const suma = n1 + n2;
-
-
+function positiveSum(arr) {
+    if (arr.isInteger(arr)) {
+return "viskas gerai";
+    } else {
+        return "kazkas nepavyksta";
+    }
+}
+console.log[2, -4, 12];

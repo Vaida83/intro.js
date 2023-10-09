@@ -26,6 +26,7 @@ console.log(a123);
 console.log(a12);
 
 console.clear();
+
 const marks = [10, 2, 8, 4, 6];
 console.log(marks.includes(10));
 console.log(marks.includes(-1));
@@ -39,7 +40,7 @@ console.log(marks.indexOf(6));
 
 console.clear();
 
-//Array.isArray - vienintelis budas, kuriuo galima atskirti ar duotas domuo yra masyvas ar ne ar yra su []
+//Array.isArray - vienintelis budas, kuriuo galima atskirti ar duotas domuo yra masyvas ar ne, ar yra su []
 
 console.log(typeof 5);
 console.log(typeof 'asd');
@@ -116,7 +117,7 @@ numbers.splice(3, 5, 15);
 console.log(numbers);
 
 
-console.clear();
+
 
 
 

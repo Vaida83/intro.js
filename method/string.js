@@ -29,6 +29,7 @@ console.log(hi.at(-2), hi[hi.length - 2]);
 console.clear();
 
 //.charCodeAt - 
+
 console.log('a'.charCodeAt(0));
 console.log('b'.charCodeAt(0));
 
@@ -37,105 +38,117 @@ console.log('labas'.charCodeAt(1));
 console.log('labas'.charCodeAt(2));
 console.log('labas'.charCodeAt(3));
 console.log('labas'.charCodeAt(4));
+console.clear();
 
-// const str1 = 'Hello';
-// const str2 = 'World';
+//.concat - 
 
-// console.log(str1.concat(' ', str2))
+const str1 = 'Hello';
+const str2 = 'World';
 
-// const str3 = 'Hello';
-// const str4 = 'World';
+console.log(str1.concat(' ', str2));
+console.log(str1);
 
-// str3 += ' ';
-// str3 += str4;
-// console.log(str4);
+let str3 = 'Hello';
+const str4 = 'World';
 
-// let str5 = 'Hello';
-// str5 += ' ' +str4;
-// console.log(str5);
+str3 += ' ';
+str3 += str4;
+console.log(str3);
 
-// //console.clear();
+let str5 = 'Hello';
+str5 += ' ' + str4;
+console.log(str5);
 
-// const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.clear();
 
-// const start = Abecele;
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
 
-// let asd123
+const start = "Abecele:";
+ let a1 = '';
+ a1 += start;
+ console.log(a1);
 
-// let a2 = start + abc[0] + abc[1] + abc[2] + abc[4] + abc[5];
+let a2 = start + abc[0] + abc[1] + abc[2] + abc[4] + abc[5];
+console.log(a2);
 
-// let a3 = start;
-// for (let i=0; i<abc.length; i++) {
-//     a3 += abc[i];
-// }
-// console.log(a3);
+let a3 = start;
 
-// let a4 = start.concat(...abc);
-// console.log(a4);
+for (let i=0; i<abc.length; i++) {
+a3 += abc[i];
+}
+console.log(a3);
 
-// const a5 =  start.concat(abc[0] + abc[1] + abc[2] + abc[4] + abc[5]);
+let a4 = start.concat(...abc);
+console.log(a4);
 
-// //includes - pasako ar yra, ar nera
+const a5 =  start.concat(abc[0] + abc[1] + abc[2] + abc[4] + abc[5]);
+console.clear();
 
-// console.log('Labas rytas' .includes('a'));
-// console.log('Labas rytas' .includes('A'));
-// console.log('Labas rytas' .includes(' '));
-// console.log('Labas rytas' .includes('ab'));
+//includes - pasako ar yra, ar nera
 
-// //infexOf - grazina simboli kurioje vietoje yra. Jei nera, grazina -1
-// //          012345
-// console.log('Labas rytas' .indexOf('a'));
-// console.log('Labas rytas' .indexOf('A'));
-// console.log('Labas rytas' .indexOf(' '));
-// console.log('Labas rytas' .indexOf('ab'));
-// console.log('Labas, labas, rytas' .indexOf('labas'));
+console.log('Labas rytas' .includes('a'));
+console.log('Labas rytas' .includes('A'));
+console.log('Labas rytas' .includes(' '));
+console.log('Labas rytas' .includes('ab'));
 
-// console.log('--------------');
-// //skaicius - nuo kurios pozicijos pradeda ieskoti
-// console.log('Labas rytas' .indexOf('a'));
-// console.log('Labas rytas' .indexOf('a', 0));
-// console.log('Labas rytas' .indexOf('a', 6));
-// console.log('Labas rytas' .indexOf('ab', 3));
-// console.log('Labas rytas' .indexOf('a', 10));
+//infexOf - grazina simboli kurioje vietoje yra. Jei nera, grazina -1
+//          012345
+console.log('Labas rytas' .indexOf('a'));
+console.log('Labas rytas' .indexOf('A'));
+console.log('Labas rytas' .indexOf(' '));
+console.log('Labas rytas' .indexOf('ab'));
+console.log('Labas, labas, rytas' .indexOf('labas'));
 
-// //naudoti tik: for () {} ir if () {}
-// function kiek(tekstas, raide) {
-//     return 0;
-// }
-// console.log(kiek('labas', 'a'));
+console.log('--------------');
 
-// //console.clear();
+//skaicius - nuo kurios pozicijos pradeda ieskoti
+console.log('Labas rytas' .indexOf('a'));
+console.log('Labas rytas' .indexOf('a', 0));
+console.log('Labas rytas' .indexOf('a', 6));
+console.log('Labas rytas' .indexOf('ab', 3));
+console.log('Labas rytas' .indexOf('a', 10));
 
-// //repeat - kartoja parasyta teksta tiek kartu, kiek parasyta
-// console.log('a' .repeat(6));
-// console.log('labas' .repeat(6));
+console.clear();
 
-// const r1 = 'Labas';
-// const r2 = r1.replace('a', 'x');
-// console.log(r1, r2);
+//naudoti tik: for () {} ir if () {}
+function kiek (tekstas, raide) {     
+    return 0;
+}
+console.log(kiek('labas', 'a'));
 
-// const r3 = 'Labas rytas';
-// const r4 = r3.replace('rytas', 'vakaras');
-// console.log(r3, r4);
+console.clear();
 
-// const r5 = r3.replace('xxx', 'yyy');
-// console.log(r3, r5);
+// repeat - kartoja parasyta teksta tiek kartu, kiek parasyta
+console.log('a' .repeat(6));
+console.log('labas' .repeat(6));
 
-// const r6 = 'Labas';
-// const r7 = r6.All('a', ' ');
-// console.log(r6, r7);
+//.replace - paleičia simbolį kokiu nors kitus
+const r1 = 'Labas';
+const r2 = r1.replace('a', 'x');
+console.log(r1, r2);
 
-// let r8 = 'Labas';
-// r8 = r8.replace('a', 'o');
-//  console.log(r8);
+const r3 = 'Labas rytas';
+const r4 = r3.replace('rytas', 'vakaras');
+console.log(r3, r4);
 
-//  r8 = r8.replace('a', 'o');
-//  console.log(r8);
+const r5 = r3.replace('xxx', 'yyy');
+console.log(r3, r5);
 
-//  r8 = r8.replace('a', 'o');
-//  console.log(r8);
+const r6 = 'Labas';
+const r7 = r6.replaceAll('a', '_');
+console.log(r6, r7);
 
- //.slice - attinkami simboliai pradeti nuo kazko iki kazko
+let r8 = 'Labas';
+r8 = r8.replace('a', 'o');
+console.log(r8);
+
+r8 = r8.replace('a', 'o');
+console.log(r8);
+
+r8 = r8.replace('a', 'o');
+console.log(r8);
+
+ //.slice - atitinkami simboliai pradeti nuo kazko iki kazko
 const kopustas = 'kopustas';
 console.log(kopustas.slice());
 console.log(kopustas.slice(0));

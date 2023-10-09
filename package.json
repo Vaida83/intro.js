@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "uzd:vardas":"nodemon ./uzd/vardas.js",
+"uzd:codewars":"nodemon ./uzd/codewars.js",   
+"uzd:pazymiai":"nodemon ./uzd/pazymiai.js",
+"uzd:vardas":"nodemon ./uzd/vardas.js",
 "uzd:tarpai":"nodemon ./uzd/tarpai.js",   
 "method:number":"nodemon ./method/number.js",
 "method:array":"nodemon ./method/array.js",

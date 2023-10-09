@@ -99,10 +99,10 @@ console.log(keistasSkaicius3);
 const keistasSkaicius4 = parseFloat(keistasSkaicius2);
 console.log(keistasSkaicius4);
  
-const keistasSkaicius5 = +'1.23';
+const keistasSkaicius5 =+ '1.23';
 console.log(keistasSkaicius5);
 
-const keistasSkaicius6 = +keistasSkaicius2;
+const keistasSkaicius6 =+ keistasSkaicius2;
 console.log(keistasSkaicius6);
 
 const c = 6.999;
