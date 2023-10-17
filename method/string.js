@@ -122,7 +122,7 @@ console.clear();
 console.log('a' .repeat(6));
 console.log('labas' .repeat(6));
 
-//.replace - paleičia simbolį kokiu nors kitus
+//.replace - pakeičia simbolį kokiu nors kitu
 const r1 = 'Labas';
 const r2 = r1.replace('a', 'x');
 console.log(r1, r2);

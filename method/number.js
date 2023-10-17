@@ -55,7 +55,7 @@ console.log(Number.parseInt('asd123'));
 console.log(Number.parseInt('123asd'));
 
 console.log('---------------');
-//parseFloat - desimtainis. Jei yra raides, ando isgauti skaiciu. Tas pats kas naudoti +
+//parseFloat - desimtainis. Jei yra raides, bando isgauti skaiciu. Tas pats kas naudoti +
 console.log(parseFloat(''));
 console.log(parseFloat('789.0'));
 console.log(parseFloat('7.89'));
@@ -76,7 +76,7 @@ console.log(isNaN(Infinity));
 
 console.clear();
 //string spausdina juodai
-//toFixed - sausdina tik tiek, kiek nurodyta skaiciu po kablelio. Tai nera zirkles, o kirpdamas suapvalina.
+//toFixed - spausdina tik tiek, kiek nurodyta skaiciu po kablelio. Tai nera zirkles, o kirpdamas suapvalina.
 
 const kaina = 3.14;
 console.log(kaina, '3.14', kaina.toFixed());
