@@ -18,6 +18,7 @@
 "for":"nodemon ./ciklas/for.js",
 "if":"nodemon ./palyginimas/if.js",
 "ternary":"nodemon ./palyginimas/ternary.js",
+"destruct":"nodemon ./kintamieji/destruct.js",
 "function":"nodemon ./kintamieji/function.js",
 "arrow":"nodemon ./kintamieji/arrow.js",
 "object":"nodemon ./kintamieji/object.js",
